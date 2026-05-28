@@ -8,10 +8,10 @@ from telegram.ext import ApplicationBuilder, CommandHandler
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 COURSES = [
-    {"name": "Edify Ethiopia Overview ", "url": "https://app.mindsmith.ai/learn/cmg7jrxkv01bvlb04ses7x8i6"},
-    {"name": "Discovering Your Values: A Guide to Good Choices", "url": "https://app.mindsmith.ai/learn/cmffk2f3303ubk104jqghqex2"},
-    {"name": "Effective Teaching Methodologies for Early Childhood Education in Ethiopia", "url": "https://app.mindsmith.ai/learn/cmmduqj3i03gsl504srt6078y"},
-    {"name": "Assessment & Classroom Management for Ethiopian Primary Teachers", "url": "https://app.mindsmith.ai/learn/cmo4cwxj4003p04l5gp140980"},
+    {"name": "School Inspection Course (Amharic)", "url": "https://app.mindsmith.ai/learn/cmik7tz2v00kyl804o6l2acng"},
+    {"name": "Aspiring Female Leader Course (AI powered; Mrs. Ayelech Experience)", "url": "https://app.mindsmith.ai/learn/cmpn95aht00wx04jsvwxeirdz"},
+    {"name": "PPE School Leadership Course (AI Powered English)", "url": "https://app.mindsmith.ai/learn/cmlrqxe8803v0ld04o2r593p5"},
+    {"name": "EdTech Foundation Training", "url": "https://app.mindsmith.ai/learn/cmfppfa3d00bujr04j5n5ykn9"},
 ]
 
 app = FastAPI()
